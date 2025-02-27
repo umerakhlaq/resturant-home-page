@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Jiya's Restaurant Menu</h1>
+    </header>
+
+    <!-- Menu Categories -->
+    <div class="menu-buttons">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="breakfast">Breakfast</button>
+        <button class="filter-btn" data-category="lunch">Lunch</button>
+        <button class="filter-btn" data-category="dinner">Dinner</button>
+        <button class="filter-btn" data-category="drinks">Drinks</button>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="menu-container">
+        <div class="menu-item" data-category="breakfast">
+            <img src="download.jpeg" alt="Breakfast">
+            <h2>Pancakes</h2>
+            <p>Fluffy pancakes with maple syrup.</p>
+            <span class="price">$5.99</span>
+        </div>
+
+        <div class="menu-item" data-category="lunch">
+            <img src="download (1).jpeg" alt="Lunch">
+            <h2>Cheese Burger</h2>
+            <p>Juicy beef burger with cheese & fries.</p>
+            <span class="price">$9.99</span>
+        </div>
+
+        <div class="menu-item" data-category="dinner">
+            <img src="download (2).jpeg" alt="Dinner">
+            <h2>Grilled Steak</h2>
+            <p>Served with mashed potatoes & vegetables.</p>
+            <span class="price">$14.99</span>
+        </div>
+
+        <div class="menu-item" data-category="drinks">
+            <img src="download(3).jpeg" alt="Drinks">
+            <h2>Latte Coffee</h2>
+            <p>Hot and creamy latte with art.</p>
+            <span class="price">$3.99</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
